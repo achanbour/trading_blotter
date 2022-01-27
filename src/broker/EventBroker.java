@@ -1,4 +1,4 @@
-package src.lib;
+package src.broker;
 
 import java.util.Hashtable;
 
@@ -14,5 +14,9 @@ final public class EventBroker {
 
     public void registerEvent(EventProcessor processor, Event e) {
         channels.get(processor).addEvent(e);
+    }
+
+    public Event fetchEvent(EventProcessor processor) {
+        return channels.get(processor).popEvent();
     }
 }

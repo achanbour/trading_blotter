@@ -1,6 +1,6 @@
 package src.event;
 
-import src.lib.Event;
+import src.broker.Event;
 import src.trade.TradeEntry;
 
 public class TradeEvent extends Event {

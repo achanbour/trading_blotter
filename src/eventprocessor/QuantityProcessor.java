@@ -1,7 +1,8 @@
 package src.eventprocessor;
 
-import src.lib.EventProcessor;
-import src.lib.IEventProcessor;
+import src.broker.EventProcessor;
+import src.broker.IEventProcessor;
 
 final public class QuantityProcessor extends EventProcessor implements IEventProcessor {
+
 }

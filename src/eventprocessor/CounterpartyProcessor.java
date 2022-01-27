@@ -1,6 +1,7 @@
 package src.eventprocessor;
 
-import src.lib.EventProcessor;
+import src.broker.EventProcessor;
+import src.broker.IEventProcessor;
 
-public class CounterpartyProcessor extends EventProcessor {
+final public class CounterpartyProcessor extends EventProcessor implements IEventProcessor {
 }

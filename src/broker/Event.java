@@ -1,4 +1,4 @@
-package src.lib;
+package src.broker;
 
 /**
  * The event is the messaging object used to facilitate communication between different event processors

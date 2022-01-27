@@ -1,6 +1,7 @@
 package src.eventprocessor;
 
-import src.lib.EventProcessor;
+import src.broker.EventProcessor;
+import src.broker.IEventProcessor;
 
-public class MarketPriceProcessor extends EventProcessor {
+final public class MarketPriceProcessor extends EventProcessor implements IEventProcessor {
 }

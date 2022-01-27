@@ -1,4 +1,4 @@
-package src.lib;
+package src.broker;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,5 +11,9 @@ public class EventChannel {
 
     public void addEvent(Event e) {
         events.add(e);
+    }
+
+    public Event popEvent() {
+        return events.remove(0);
     }
 }
